@@ -162,6 +162,7 @@ cp .env.example .env
 
 5. Create Django migrations and migrate the database
 ```bash
+python manage.py makemigrations app
 python manage.py migrate
 ```
 
